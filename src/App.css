@@ -426,3 +426,9 @@ span.Navbar-text {
 
 
 /* Skills css */
+@media (max-width: 480px) {
+  .progress-bar{
+    width: 330px;
+    justify-content: center;
+  }
+}
