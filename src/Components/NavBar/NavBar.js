@@ -3,8 +3,10 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import 'bootstrap/dist/css/bootstrap.css';
+import "../NavBar/NavBar.css"
+
 import * as Icon from 'react-bootstrap-icons';
-import Logo from "../assets/img/logo.png"
+import Logo from "../Images/logo.png"
 
 
 import { useState, useEffect } from "react";
@@ -54,7 +56,7 @@ export const NavBar =() => {
                     <a href="#"><Icon.Linkedin className='icon' /></a>
                 </div>
                 <div>
-                    <button className="vvd" onClick={() => console.log("connect")}><span>Let's Connect <Icon.ArrowRightCircleFill size={28} /></span></button>
+                <a href="https://linktr.ee/agyemang166"><button>Let's connect <Icon.ArrowRightCircleFill size={28}/></button></a>
                 </div>
                 
               </span>
