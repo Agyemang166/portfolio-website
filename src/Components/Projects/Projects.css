@@ -1,0 +1,13 @@
+div::-webkit-scrollbar {
+    width: 0px;
+  }
+
+  @media screen and (max-width: 464px) {
+    #projects h1 {
+        font-size: 30px;
+    }
+    #project .titleheader p {
+        padding: none;
+        width: 100%;
+    }
+}

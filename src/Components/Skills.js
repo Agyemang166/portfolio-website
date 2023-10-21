@@ -31,6 +31,11 @@ const progressSkills = [
         id: 2
     },
     {
+        skillName: "Filmora Editor : 85%",
+        skillclassName: "percentage react-native",
+        id: 2
+    },
+    {
         skillName: "Javascript : 75%",
         skillclassName: "percentage javascript",
         id: 2
@@ -58,6 +63,13 @@ const circulSkills = [
         d: "M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831",
         percentage: "40%",
         title: "Cyber Security"
+    },
+    {
+        id: 7,
+        strokedasharray: "70, 100",
+        d: "M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831",
+        percentage: "70%",
+        title: "Video Editting"
     },
     {
         id: 2,
@@ -161,7 +173,7 @@ export const Skills = () => {
                 <Row>
                     <Col>
                         <div className="skill-bx">
-                            <h1 className="text-white font-titleFonts">Skills</h1>
+                            <h1 className="text-white font-titleFonts text-6xl pb-4">Skills</h1>
                             <p className="font-pFonts">"Highlighting My Skills on My Portfolio Website"
                                 <br></br></p>
                             <Typewriter
