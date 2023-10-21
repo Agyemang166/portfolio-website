@@ -4,10 +4,10 @@ import "react-multi-carousel/lib/styles.css";
 import { Typewriter } from 'react-simple-typewriter'
 import Card from "./Card";
 
-
+import Projects from "./Projects/Projects";
 
 import { AiFillAppstore } from "react-icons/ai";
-import { FaUserTie,FaSwimmer, FaLightbulb,FaGlobe,FaClock, FaBusinessTime } from "react-icons/fa";
+import { FaUserTie, FaSwimmer, FaLightbulb, FaGlobe, FaClock, FaBusinessTime } from "react-icons/fa";
 
 const progressSkills = [
     {
@@ -161,7 +161,7 @@ export const Skills = () => {
                 <Row>
                     <Col>
                         <div className="skill-bx">
-                            <h2 className="text-white font-titleFonts">Skills</h2>
+                            <h1 className="text-white font-titleFonts">Skills</h1>
                             <p className="font-pFonts">"Highlighting My Skills on My Portfolio Website"
                                 <br></br></p>
                             <Typewriter
@@ -188,6 +188,7 @@ export const Skills = () => {
                         </div>
                     </Col>
                 </Row>
+                
                 <div className="skills">
                     <Row >
                         <p className="text-center text-white pb-0">
@@ -211,19 +212,19 @@ export const Skills = () => {
                             })
                         }
                     </Row>
+
                 </div>
-                <section
-                    id="features"
-                    className="w-full py-10 p-2 border-b-[1px] bg-[#333333] border-b-black"
-                >
+                <div className="w-full py-10 p-3 border-[5px] border-bodyColor bg-[#223222] ">
                     <h2 className="font-pFonts text-center p-3">Personal Skills</h2>
                     <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-20">
                         {featuresData.map((item) => (
                             <Card item={item} key={item.id} />
                         ))}
                     </div>
-                </section>
+                </div>
             </Container>
+
+            <Projects/>
         </section>
     )
 }

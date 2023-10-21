@@ -33,7 +33,7 @@ export const Banner =() => {
         </span>
       </h1>
                     <p className="text-justify font-pFonts">"Hello, I am Agyemang Nana Gyamfi, an industrious scholar of General science at Opoku Ware School, with a specialization in React development. My fervor for technology, coupled with my adept problem-solving abilities, distinguishes me in my field. My solid understanding of coding principles and propensity for crafting user-centric applications make me a formidable contender for any technological challenge!"</p>
-                     <a href="https://wa.me/0542353326"><button>Let's connect <Icon.ArrowRightCircleFill size={28}/></button></a>
+                     <a href="https://wa.me/233542353326"><button>Let's connect <Icon.ArrowRightCircleFill size={28}/></button></a>
                     </Col>
                     <Col xs={12} md={3} xl={3} >
                       <div className="first">

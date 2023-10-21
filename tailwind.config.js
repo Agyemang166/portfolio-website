@@ -12,7 +12,7 @@ module.exports = {
         Fonts:['Barlow Condensed', 'sans-serif']
       },
       colors: {
-        bodyColor: '#800080',
+        bodyColor: '#4CC790',
       },
       boxShadow: {
         shadowOne: "1px 4px 1px #1c1e22, -5px -5px 1px #262a2e",
