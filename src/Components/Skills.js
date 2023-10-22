@@ -5,6 +5,7 @@ import { Typewriter } from 'react-simple-typewriter'
 import Card from "./Card";
 
 import Projects from "./Projects/Projects";
+import Recommendation from "./Recommendation/Recommendation";
 
 import { AiFillAppstore } from "react-icons/ai";
 import { FaUserTie, FaSwimmer, FaLightbulb, FaGlobe, FaClock, FaBusinessTime } from "react-icons/fa";
@@ -237,6 +238,7 @@ export const Skills = () => {
             </Container>
 
             <Projects/>
+            <Recommendation/>
         </section>
     )
 }

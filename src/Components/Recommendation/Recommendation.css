@@ -1,0 +1,27 @@
+.recommenders {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%; 
+   /* adjust this according to your needs */
+  }
+ 
+
+@media screen and (max-width: 464px) {
+    #recommendation .titleheader h1 {
+        font-size: 30px;
+    }
+    #recommendation .titleheader p {
+        padding: none;
+        width: 100%;
+    }
+    .recommenders {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        padding-bottom: 10px; /* adjust this according to your needs */
+      }
+}

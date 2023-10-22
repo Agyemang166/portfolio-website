@@ -59,7 +59,7 @@ const projectsdata = [
         type: "mobile application",
         src: LittleLemon,
         title: "Little Lemon App",
-        des: "I single-handedly developed and deployed a project, optimizing it for peak performance. My skills in HTML and CSS came to the fore when I constructed a website for Mizpah Travel Agency, enhancing their online presence. Furthermore, I managed their email marketing, boosting engagement across all their platforms.",
+        des: "I recently completed a React Native course and put my newfound skills to the test by developing a mobile app named 'Little Lemon'. This project, which I developed and deployed on my own, allowed me to showcase my ability to optimize for peak performance.",
         buttonlink: "https://www.tiktok.com/@gyamfinanaagyeman/video/7292520112974892293"
     },
     {
@@ -111,7 +111,7 @@ const Projects = () => {
             <div className=" ">
                 <h1 className="font-titleFonts text-center text-6xl pb-4">My Hall Of Fame</h1>
                 <p className='text-center font-pFonts px-15'>My portfolio, enriched by a diverse range of projects, showcases my skills in Strategic Planning, Team Leadership, and Digital Marketing as a Computer Science student. Each project, backed by certificates, reflects a unique blend of creativity and practical application, demonstrating my commitment and enthusiasm. Dive in to discover more!</p>
-                <h3 className='text-center pb-0 mb-0 mt-5'>Projects</h3>
+                <h3 className='text-center pb-0 mb-0 mt-5 font-pFonts'>Projects</h3>
                 <Carousel responsive={responsive} swipeable={true} autoPlaySpeed={80000} showDots={true} removeArrowOnDeviceType={["tablet", "mobile"]} autoPlay={responsive.deviceType !== "mobile" ? true : false}>
                     {  
                         projectsdata.map(({ src, title, des, type, buttonlink }) => {
@@ -150,7 +150,7 @@ const Projects = () => {
 
                 </Carousel>
 
-                <h3 className='text-center pb-0 mb-0 mt-5'>Certificates</h3>
+                <h3 className='text-center pb-0 mb-0 mt-5 font-pFonts'>Certificates</h3>
 
                 <Carousel responsive={responsive} swipeable={true} autoPlaySpeed={10000} showDots={true} removeArrowOnDeviceType={["tablet", "mobile"]} autoPlay={responsive.deviceType !== "mobile" ? true : false}>
                     {
@@ -189,6 +189,7 @@ const Projects = () => {
                     }
 
                 </Carousel>
+                <p className='text-center font-h1Fonts'>These accomplishments not only highlights my technical skills but also demonstrates my initiative, dedication, and ability to independently manage a project from conception to completion.In addition to these accomplishments, I've also earned several certificates, further solidifying my technical skills. It's a testament to my adaptability and eagerness to continuously learn and grow.</p>
             </div>
             <div className='pt-5'>
 
