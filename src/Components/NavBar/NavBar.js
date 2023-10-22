@@ -52,9 +52,9 @@ export const NavBar =() => {
               </Nav>
               <span className="Navbar-text">
                 <div className="social-icon">
-                    <a href="#"><Icon.Instagram className='icon'/></a>
+                    <a href="https://www.instagram.com/agyemang_gyamf.i/"><Icon.Instagram className='icon'/></a>
                     <a href="https://www.tiktok.com/@agyemangdev"> <Icon.Tiktok className='icon'/></a>
-                    <a href="#"><Icon.Linkedin className='icon' /></a>
+                    <a href="https://web.facebook.com/profile.php?id=61551890427260"><Icon.Facebook className='icon' /></a>
                 </div>
                 <div>
                 <a href="https://linktr.ee/agyemang166"><button>Let's connect <Icon.ArrowRightCircleFill size={28}/></button></a>

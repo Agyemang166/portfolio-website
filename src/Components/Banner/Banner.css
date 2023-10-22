@@ -116,3 +116,13 @@
   .txt-rotate >.wrap{
     border-right: 0.88em solid #666;
   }
+
+  @media (max-width: 480px) {
+    .first {
+      display: none;
+    }
+    .banner .wrap{
+      font-size: 30px;
+    }
+    
+  }

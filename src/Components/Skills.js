@@ -9,6 +9,7 @@ import Recommendation from "./Recommendation/Recommendation";
 
 import { AiFillAppstore } from "react-icons/ai";
 import { FaUserTie, FaSwimmer, FaLightbulb, FaGlobe, FaClock, FaBusinessTime } from "react-icons/fa";
+import Footer from "./Footer/Footer";
 
 const progressSkills = [
     {
@@ -180,7 +181,7 @@ export const Skills = () => {
                             <Typewriter
                                 words={['Industry Knowledge', 'Specialized Expertise']}
                                 loop={50000} cursor cursorStyle='|' typeSpeed={100} deleteSpeed={20} delaySpeed={3000} />
-                            <Carousel responsive={responsive} infinite={true} className="skills-slider">
+                            <Carousel responsive={responsive} infinite={true} className="skills-slider" dotListClass="custom-dot-list-style">
                                 {
                                     circulSkills.map(({ id, strokedasharray, d, percentage, title }) => {
                                         return (
@@ -239,6 +240,7 @@ export const Skills = () => {
 
             <Projects/>
             <Recommendation/>
+            <Footer/>
         </section>
     )
 }

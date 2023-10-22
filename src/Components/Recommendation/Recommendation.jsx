@@ -13,6 +13,13 @@ const recommendationData = [
         email:"mizpahtravel@gmail.com"
     },
     {
+        employer:" Master Daniel Boadu",
+        position:"React Development Comrade",
+        relationship:"Development Collaborator: Collaborated on a project",
+        recommendationtext:"Collaborating on a project with Mr Gyamfi was an enriching experience. His skills in React and problem-solving abilities are truly impressive. We worked together to build and optimize a website, showcasing our combined expertise and passion. This collaboration resulted in significant savings and a highly satisfactory outcome. His understanding of React, coupled with his ability to work as part of a team, makes him an invaluable asset for any web development project. I wholeheartedly recommend him for any opportunity, be it a job or a scholarship.",
+        email:"danielboadu594@gmail.com "
+    },
+    {
         employer:"Pastor Ahenkora Richard",
         position:"Pastor of Mizpah International Ministry",
         relationship:"Employer:I was hired by Mr. Ahenkora as a web developer for his church, Mizpah International Ministry.",
@@ -26,7 +33,7 @@ function Recommendation() {
         superLargeDesktop: {
             // the naming can be any, depends on you.
             breakpoint: { max: 4000, min: 3000 },
-            items: 1
+            items: 2
         },
         desktop: {
             breakpoint: { max: 3000, min: 1024 },
@@ -49,7 +56,7 @@ function Recommendation() {
       <p className='text-center font-pFonts'>Impressions & Impact: An Extensive, Detailed, and Comprehensive Showcase of My Professional Journey, Highlighted Through Endorsements and Accolades from Respected Peers, Leaders, and Influencers in the Field, Demonstrating My Skills, Achievements, and Contributions.</p>
         </div>
         
-        <Carousel responsive={recommendationresponsive} swipeable={true} infinite={true} showDots={true} removeArrowOnDeviceType={["tablet", "mobile"]} dotListClass="custom-dot-list-style">
+        <Carousel responsive={recommendationresponsive} keyBoardControl={true} swipeable={true} infinite={true} showDots={true} removeArrowOnDeviceType={["desktop", "mobile"]} dotListClass="custom-dot-list-style">
       
         {
             recommendationData.map(({employer, position,relationship,recommendationtext,email}) => {

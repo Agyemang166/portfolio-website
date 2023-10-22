@@ -112,7 +112,7 @@ const Projects = () => {
                 <h1 className="font-titleFonts text-center text-6xl pb-4">My Hall Of Fame</h1>
                 <p className='text-center font-pFonts px-15'>My portfolio, enriched by a diverse range of projects, showcases my skills in Strategic Planning, Team Leadership, and Digital Marketing as a Computer Science student. Each project, backed by certificates, reflects a unique blend of creativity and practical application, demonstrating my commitment and enthusiasm. Dive in to discover more!</p>
                 <h3 className='text-center pb-0 mb-0 mt-5 font-pFonts'>Projects</h3>
-                <Carousel responsive={responsive} swipeable={true} autoPlaySpeed={80000} showDots={true} removeArrowOnDeviceType={["tablet", "mobile"]} autoPlay={responsive.deviceType !== "mobile" ? true : false}>
+                <Carousel responsive={responsive} swipeable={true} autoPlaySpeed={80000} showDots={true} removeArrowOnDeviceType={["tablet", "mobile"]} autoPlay={responsive.deviceType !== "mobile" ? true : false} dotListClass="custom-dot-list-style">
                     {  
                         projectsdata.map(({ src, title, des, type, buttonlink }) => {
                             return (
@@ -152,7 +152,7 @@ const Projects = () => {
 
                 <h3 className='text-center pb-0 mb-0 mt-5 font-pFonts'>Certificates</h3>
 
-                <Carousel responsive={responsive} swipeable={true} autoPlaySpeed={10000} showDots={true} removeArrowOnDeviceType={["tablet", "mobile"]} autoPlay={responsive.deviceType !== "mobile" ? true : false}>
+                <Carousel responsive={responsive} swipeable={true} autoPlaySpeed={10000} showDots={true} removeArrowOnDeviceType={["tablet", "mobile"]} autoPlay={responsive.deviceType !== "mobile" ? true : false} dotListClass="custom-dot-list-style">
                     {
                         certificateData.map(({ src, title, des, buttonlink }) => {
                             return (
