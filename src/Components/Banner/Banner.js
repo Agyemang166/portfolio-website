@@ -11,14 +11,14 @@ import Austronaut from "../Images/autronaut.png";
 export const Banner =() => {
 
     return(
-        <section className="banner" id="home" >
+        <section className="banner text-dark" id="home" >
             <Container>
                 <Row className="justify-content-center align-items-center ">
                     <Col xs={12} md={6} xl={7}>
-                        <span className="tagline ">Welcome to My portfolio</span>
-                    <h3 className="name font-titleFonts">Hi, I'm Nana Gyamfi Agyemang</h3>
+                        <span className="tagline ">Enter the vibrant realm of</span>
+                    <h2 className=" font-titleFonts text-white text-4xl"> Nana Gyamfi Agyemang</h2>
                     <h1 style={{  fontWeight: 'normal' }}>
- a{' '}
+ <span> a{' '}</span>
         <span style={{ color: '#4CC790', fontWeight: 'bold' }}>
           {/* Style will be inherited from the parent element */}
           <Typewriter
