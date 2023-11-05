@@ -120,8 +120,14 @@ h1,h2,h3,h4,h5,h6 {
 .reactjs{
   width: 83%;
 }
+.video{
+  width: 79%;
+}
 .react-native{
   width: 85%;
+}
+.photo{
+  width: 75%;
 }
 
 .skills h2{

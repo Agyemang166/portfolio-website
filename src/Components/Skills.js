@@ -33,13 +33,18 @@ const progressSkills = [
         id: 2
     },
     {
-        skillName: "Filmora Editor : 85%",
-        skillclassName: "percentage react-native",
+        skillName: "Filmora Video Editing : 79%",
+        skillclassName: "percentage video",
         id: 2
     },
     {
         skillName: "Javascript : 75%",
         skillclassName: "percentage javascript",
+        id: 2
+    },
+    {
+        skillName: "Adobe Photoshop Editing : 65%",
+        skillclassName: "percentage photo",
         id: 2
     },
 ]
@@ -68,9 +73,9 @@ const circulSkills = [
     },
     {
         id: 7,
-        strokedasharray: "70, 100",
+        strokedasharray: "79, 100",
         d: "M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831",
-        percentage: "70%",
+        percentage: "79%",
         title: "Video Editting"
     },
     {
@@ -93,6 +98,13 @@ const circulSkills = [
         d: "M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831",
         percentage: "70%",
         title: "UI/UX Design"
+    },
+    {
+        id: 5,
+        strokedasharray: "65, 100",
+        d: "M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831",
+        percentage: "65%",
+        title: "Photo Editting"
     },
     {
         id: 4,
