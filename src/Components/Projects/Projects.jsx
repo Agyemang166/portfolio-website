@@ -11,6 +11,7 @@ import TravelAgency from "../Images/travelagency.png"
 import VideoImage1 from "../Images/video1.png"
 import VideoImage2 from "../Images/video2.png"
 import LittleLemon from "../Images/LittleLemon.jpeg"
+import MovieSite from "../Images/moviesite.png"
 
 // certificate images
 import Cert1 from "../Images/courseracert1.png"
@@ -47,6 +48,13 @@ const projectsdata = [
         title: "MIZPAH INTERATIONAL MINISTRY",
         des: "Check out my work on the Mizpah International Ministry project. I used React to build a dynamic and user-friendly website, showcasing my proficiency in modern web development practices. Being based in Ohio, I've managed to transform the ministry's online presence, reflecting my skills in Strategic Planning, Team Leadership, and Digital Marketing. Dive in to see the impact of my work!",
         buttonlink: "https://mizpahfamily.com"
+    },
+    {
+        type: "website",
+        src: MovieSite,
+        title: "Rai'na Movies",
+        des: "Rai'na Movies is a website I've developed to showcase my skills in React. It serves as a platform for me to demonstrate my enthusiasm for learning React and integrating APIs to enhance the website's functionality. Through this project, I aim to exhibit my dedication to mastering React and creating immersive web experiences. I've invested considerable effort into crafting a visually appealing and user-friendly interface for Rai'na Movies, reflecting my passion for web development and my commitment to honing my skills in React. ",
+        buttonlink: "https://movie-app-sand-kappa.vercel.app/"
     },
     {
         type: "website",
