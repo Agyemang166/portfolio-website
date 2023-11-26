@@ -12,6 +12,7 @@ import VideoImage1 from "../Images/video1.png"
 import VideoImage2 from "../Images/video2.png"
 import LittleLemon from "../Images/LittleLemon.jpeg"
 import MovieSite from "../Images/moviesite.png"
+import Chatapp from "../Images/chatapp.jpeg"
 
 // certificate images
 import Cert1 from "../Images/courseracert1.png"
@@ -55,6 +56,13 @@ const projectsdata = [
         title: "Rai'na Movies",
         des: "Rai'na Movies is a website I've developed to showcase my skills in React. It serves as a platform for me to demonstrate my enthusiasm for learning React and integrating APIs to enhance the website's functionality. Through this project, I aim to exhibit my dedication to mastering React and creating immersive web experiences. I've invested considerable effort into crafting a visually appealing and user-friendly interface for Rai'na Movies, reflecting my passion for web development and my commitment to honing my skills in React. ",
         buttonlink: "https://movie-app-sand-kappa.vercel.app/"
+    },
+    {
+        type: "website",
+        src: Chatapp,
+        title: "Agyemang's Chatting Arena",
+        des: "I created a chatting app all by myself that allows people to have group chats and one-on-one conversations. I'm really proud of it and I want to showcase my skills in React JS on my portfolio website. In my app, users can enjoy the flexibility of both group chats and individual conversations. It's built using React JS, which demonstrates my expertise in this powerful JavaScript library. I've designed the app with a sleek and intuitive user interface to provide a seamless chatting experience. Users can easily navigate between group chats and individual conversations, making it convenient for connecting with others. Adding this project to my portfolio website will allow me to showcase my talent in React JS development and highlight my ability to create functional and user-friendly applications. I'm currently working on the log in page so people can log in dynamically but to use the app, you can text me to add you to the backend.",
+        buttonlink: "https://chatengine-chi.vercel.app/"
     },
     {
         type: "website",
