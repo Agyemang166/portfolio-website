@@ -13,6 +13,7 @@ import VideoImage2 from "../Images/video2.png"
 import LittleLemon from "../Images/LittleLemon.jpeg"
 import MovieSite from "../Images/moviesite.png"
 import Chatapp from "../Images/chatapp.jpeg"
+import Luxhutapparel from "../Images/luxhutapparel.png"
 
 // certificate images
 import Cert1 from "../Images/courseracert1.png"
@@ -43,6 +44,13 @@ const certificateData = [
 ]
 // projects data
 const projectsdata = [
+    {
+        type: "website",
+        src: Luxhutapparel,
+        title: "Luxhut Apparel - E-commerce",
+        des: "As a React wizard and a visionary entrepreneur, I've conjured up a jaw-dropping e-commerce website that's all about slaying the fashion game on campus. 🎉 From head-turning designs to seamless functionality, I've poured my heart and soul into creating an electrifying shopping experience that'll leave everyone wanting more. 💃 So if you're looking to level up your team with a tech-savvy trendsetter or if you want to invest in a future fashion maven, look no further! Scholarships and job offers are just waiting to be snatched up by the lucky ones who recognize my vibrant talent. Let's make magic happen together! ✨🔥!",
+        buttonlink: "https://luxhutapparel.vercel.app"
+    },
     {
         type: "website",
         src: MizpahFamily,
